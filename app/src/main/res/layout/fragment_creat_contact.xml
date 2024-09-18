@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CreatContactFragment">
+
+    <EditText
+        android:minHeight="48dp"
+        android:id="@+id/eT1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Enter order 1"
+        android:inputType="textPersonName"></EditText>
+
+    <EditText
+        android:minHeight="48dp"
+        android:id="@+id/eT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Enter order 2"
+        android:inputType="textPersonName"
+        ></EditText>
+
+    <EditText
+        android:minHeight="48dp"
+        android:id="@+id/eT3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="15dp"
+        android:hint="Enter order 3"
+        android:inputType="textPersonName"
+        ></EditText>
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" ></Button>
+
+</LinearLayout>
